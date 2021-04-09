@@ -1,0 +1,22 @@
+a = 1
+b = 1
+
+def XOR(input_one, input_two):
+    if input_one == 1 and input_two == 0:
+        print(1)
+    elif input_one == 0 and input_two == 1:
+        print(1)
+    else:
+        print(0)
+
+def AND(input_one, input_two):
+    if input_one == 1 and input_two == 1:
+        print(1)
+    else:
+        print(0)
+
+def half_adder(input_one, input_two):
+    XOR(input_one, input_two)
+    AND(input_one, input_two)
+
+half_adder(a, b)
